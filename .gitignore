@@ -1,0 +1,14 @@
+
+/.idea/
+/microservicecloud-provider-dept-8001/microservicecloud-provider-dept-8001.iml
+/microservicecloud-api/microservicecloud-api.iml
+/microservicecloud-api/target/
+/microservicecloud-provider-dept-8001/.idea/
+/microservicecloud-provider-dept-8001/target/
+/microservicecloud-consumer-dept-80/microservicecloud-consumer-dept-80.iml
+/microservicecloud-eureka-7001/microservicecloud-eureka-7001.iml
+/microservicecloud-eureka-7001/target/
+/microservicecloud-eureka-7002/microservicecloud-eureka-7002.iml
+/microservicecloud-eureka-7002/target/
+/microservicecloud-eureka-7003/microservicecloud-eureka-7003.iml
+/microservicecloud-eureka-7003/target/
