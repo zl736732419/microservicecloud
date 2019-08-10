@@ -12,3 +12,6 @@
 /microservicecloud-eureka-7002/target/
 /microservicecloud-eureka-7003/microservicecloud-eureka-7003.iml
 /microservicecloud-eureka-7003/target/
+/microservicecloud-consumer-dept-80/target/
+/microservicecloud-provider-dept-8002/target/
+/microservicecloud-provider-dept-8003/target/
