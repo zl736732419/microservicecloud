@@ -1,6 +1,7 @@
 package com.zheng.myrule;
 
 import com.netflix.loadbalancer.IRule;
+import com.netflix.loadbalancer.RetryRule;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 
@@ -14,7 +15,7 @@ public class MySelfRule {
 
     @Bean
     public IRule loadBalanceRule() {
-//        return new RandomRule();
-        return new RoundRobinTimeLimitRule();
+        return new RetryRule();
+//        return new RoundRobinTimeLimitRule();
     }
 }

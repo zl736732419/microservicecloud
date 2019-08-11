@@ -15,3 +15,5 @@
 /microservicecloud-consumer-dept-80/target/
 /microservicecloud-provider-dept-8002/target/
 /microservicecloud-provider-dept-8003/target/
+/microservicecloud-consumer-feign-80/microservicecloud-consumer-feign-80.iml
+/microservicecloud-consumer-feign-80/target/
