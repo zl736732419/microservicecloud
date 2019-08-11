@@ -1,0 +1,43 @@
+server:
+  port: 8001
+
+mybatis:
+  config-location: classpath:mybatis/mybatis-cfg.xml
+  type-aliases-package: com.zheng.springcloud.entity
+  mapper-locations:
+    - classpath:mybatis/mapper/**/*.xml
+
+spring:
+  application:
+    name: microservicecloud-dept
+  datasource:
+    type: com.alibaba.druid.pool.DruidDataSource
+    driver-class-name: org.gjt.mm.mysql.Driver
+    url: jdbc:mysql://localhost:3306/cloudDB01
+    username: root
+    password: root
+    dbcp2:
+      min-idle: 5
+      initial-size: 5
+      max-total: 5
+      max-wait-millis: 200
+
+# 向eureka server注册服务
+eureka:
+  client:
+    service-url:
+      # 单机版配置 defaultZone: http://localhost:7001/eureka/
+      defaultZone: http://eureka7001.com:7001/eureka/,http://eureka7002.com:7002/eureka/,http://eureka7003.com:7003/eureka/
+  instance:
+    # 微服务入驻Eureka的名称，用于在console控制台状态栏展示
+    instance-id: microservicecloud-dept8001-hystrix
+    # 访问路径显示ip
+    prefer-ip-address: true
+
+# 提供微服务描述信息
+info:
+  app.name: microservicecloud
+  company.name: com.zheng.springcloud
+  build.artifactId: $project.artifactId$
+  build.version: $project.version$
+  description: this is a dept test spring cloud microservice with hystrix, welcome!

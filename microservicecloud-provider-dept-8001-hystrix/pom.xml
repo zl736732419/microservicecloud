@@ -7,10 +7,10 @@
         <groupId>com.zheng.springcloud</groupId>
         <version>1.0-SNAPSHOT</version>
     </parent>
-    
     <modelVersion>4.0.0</modelVersion>
-    <artifactId>microservicecloud-provider-dept-8001</artifactId>
-    <name>microservicecloud-provider-dept-8001</name>
+
+    <artifactId>microservicecloud-provider-dept-8001-hystrix</artifactId>
+    <name>microservicecloud-provider-dept-8001-hystrix</name>
 
     <dependencies>
         <dependency>
@@ -64,14 +64,13 @@
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-devtools</artifactId>
         </dependency>
-        
+
         <dependency>
             <groupId>org.springframework</groupId>
             <artifactId>springloaded</artifactId>
             <version>1.2.8.RELEASE</version>
         </dependency>
-        
-        
+
         <!-- spring cloud eureka 服务注册-->
         <dependency>
             <groupId>org.springframework.cloud</groupId>
@@ -81,11 +80,17 @@
             <groupId>org.springframework.cloud</groupId>
             <artifactId>spring-cloud-starter-netflix-eureka-client</artifactId>
         </dependency>
-        
+
         <!-- spring cloud actuator 解决微服务/actuator/info errorPage -->
         <dependency>
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-actuator</artifactId>
         </dependency>
+
+        <dependency>
+            <groupId>org.springframework.cloud</groupId>
+            <artifactId>spring-cloud-starter-netflix-hystrix</artifactId>
+        </dependency>
     </dependencies>
+    
 </project>
