@@ -20,6 +20,7 @@
         <module>microservicecloud-provider-dept-8003</module>
         <module>microservicecloud-consumer-feign-80</module>
         <module>microservicecloud-provider-dept-8001-hystrix</module>
+        <module>microservicecloud-hystrix-dashboard-9001</module>
     </modules>
 
     <properties>

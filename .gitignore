@@ -19,3 +19,5 @@
 /microservicecloud-consumer-feign-80/target/
 /microservicecloud-provider-dept-8001-hystrix/microservicecloud-provider-dept-8001-hystrix.iml
 /microservicecloud-provider-dept-8001-hystrix/target/
+/microservicecloud-hystrix-dashboard-9001/microservicecloud-hystrix-dashboard-9001.iml
+/microservicecloud-hystrix-dashboard-9001/target/

@@ -41,3 +41,10 @@ info:
   build.artifactId: $project.artifactId$
   build.version: $project.version$
   description: this is a dept test spring cloud microservice with hystrix, welcome!
+
+# 开启hystrix dashboard监控数据采集
+management:
+  endpoints:
+    web:
+      exposure:
+        include: hystrix.stream
