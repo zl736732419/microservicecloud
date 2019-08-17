@@ -1,1 +1,0 @@
-该文件由运维负责维护，其中的更变将会通过config-server感知并通知到对应的config-client
