@@ -1,0 +1,7 @@
+spring:
+  cloud:
+    config:
+      profile: test # 决定从配置中心获取的配置环境
+      label: master # 拉取的配置所属分支
+      name: microservicecloud-config-client # 从github上拉取的配置文件名，没有后缀
+      uri: http://config-server.com:3344 # 配置中心地址

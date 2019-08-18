@@ -23,3 +23,4 @@
 /microservicecloud-hystrix-dashboard-9001/target/
 /microservicecloud-gateway-zuul-9527/target/
 /microservicecloud-config-server-3344/target/
+/microservicecloud-config-client/target/
