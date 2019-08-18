@@ -1,0 +1,7 @@
+spring:
+  cloud:
+    config:
+      name: microservicecloud-config-provider-dept
+      label: master
+      profile: dev
+      uri: http://config-server.com:3344

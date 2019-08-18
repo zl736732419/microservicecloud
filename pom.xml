@@ -24,6 +24,8 @@
         <module>microservicecloud-gateway-zuul-9527</module>
         <module>microservicecloud-config-server-3344</module>
         <module>microservicecloud-config-client</module>
+        <module>microservicecloud-config-eureka</module>
+        <module>microservicecloud-config-provider-dept</module>
     </modules>
 
     <properties>

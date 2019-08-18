@@ -24,3 +24,5 @@
 /microservicecloud-gateway-zuul-9527/target/
 /microservicecloud-config-server-3344/target/
 /microservicecloud-config-client/target/
+/microservicecloud-config-eureka/target/
+/microservicecloud-config-provider-dept/target/
