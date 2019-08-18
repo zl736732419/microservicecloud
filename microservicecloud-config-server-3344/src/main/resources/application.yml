@@ -3,8 +3,42 @@ server:
 spring:
   application:
     name: microservicecloud-config-server
+    
   cloud:
     config:
       server:
         git:
-          uri: 
+          uri: git@github.com:zl736732419/microservicecloud-config.git
+          # 
+          ignoreLocalSshSettings: true
+          host-key: AAAAB3NzaC1yc2EAAAABIwAAAQEAq2A7hRGmdnm9tUDbO9IDSwBK6TbQa+PXYPCPy6rbTrTtw7PHkccKrpp0yVhp5HdEIcKr6pLlVDBfOLX9QUsyCOV0wzfjIJNlGEYsdlLJizHhbn2mUjvSAHQqZETYP81eFzLQNnPHt4EVVUh7VfDESU84KezmD5QlWpXLmvU31/yMf+Se8xhHTvKSCZIFImWwoG6mbUoWf9nzpIoaSjB+weqqUUmpaaasXVal72J+UX2B+2RPW3RcT0eOzQgqlJL3RKrTJvdsjE3JEAvGq3lGHSZXy28G3skua2SmVi/w4yCE6gbODqnTWlg7+wC604ydGXA8VJiS5ap43JXiUFFAaQ==
+          host-key-algorithm: ssh-rsa
+          private-key: |
+            -----BEGIN RSA PRIVATE KEY-----
+            MIIEowIBAAKCAQEA1rixlIs5Ut3yPc6igCRnOvVXEF3Or27Zt1yRlaGNYUXRQHMw
+            L9t/aNeRsnFP09MyLs0SGn8fKPWFaWOVDBbvaEXdzhO1K+WzHsJeSZ5+VolM3OBn
+            xncX4He4l0o7+xhg5skt+UWXbMtNg4QXLHVCiZVaK5ijqaY4iYLjXB0+1deEYTKp
+            NOmfDKjiYsqrTPhJuwSJlG13RnZqByOuMwVTbp/WKPuG5qjsgfQACa36D2MUfNnl
+            Pqi/j05I8IVoZH5JcUozM/Iksvu7A6LUv51BwjMV9SswtPDxH2sD434dXNuZpDK3
+            rsZfoqekeQFmo8Gf18oW6GmBBdw2dUllyAQYPwIDAQABAoIBAGDXkBAE8uey/mxt
+            49CTmpN2z7ur82ogPsV6VJb98/vpN0UwLo2HG+G3SBkJDg3ldP6ysvWMXAtnILK1
+            nSWEupl22WD2doHD6ZN36nqdpzF0X1xHQca7M+OjW3ewnXjUN/Ae0ENa5b7FusIU
+            Mzdz83yGBdMf1sDPHTS3+b8z2YEsDI1OuEOXFIAMjLr8Eh2oaBYP4IcJMx/rAEvb
+            7MglD+UwjTABqWieU8IYkM2pSqRilzCJ4XT7OeKQ7va4iKEA3DaqZJ99RPqNvwwq
+            U1Q9j8MjGfzQlfURy94lc2Uy7t54eZxfdqUdwjmThqwzqWlZ2jTw8/PZffnXXoyx
+            6xMHtgECgYEA/L2Ec6UiybXIpDUkiDVWex42ycQLBQ1bJsm97JojWVcGiU99C8lg
+            NHnUH40MIqRvSVynUDSjqQ62hL+cW+sE1CzhctrJml0nF2OsiK8Q7umkCrN81VBL
+            vxZykylb0A0fk0Ut/UK1Gbj3SrRTRqnYViZRJNPHoghpWXv1TdmjH4ECgYEA2X2l
+            4ZCu4F0V3VpiapUA1kyjbURxiDrAQG0eCcJwcvHZwGqTIjdSNT93EUNmX3MDfaKf
+            PgqNCjAx5oaocZqHbSFK4JXWe4s+uMaPh+O2HwwnNPfm+bxC8AoIcyETNsxWHp1M
+            cwQvR8E1tanGwozyG8iNbf6NPgGckiSTwNz7F78CgYA4JWXqRvIue0rCZ+fgtnCq
+            0zB6rCmCitAIEuM1T5ywuSuDj3wJBUhw/+uGws/CVmM+me21XKxK3zDe1q5GoTQm
+            an3/BOmqeC05/fOTPcj2OkMt+Weu/7KEFdmIJbT2yCOOlNy9mXcf6r5NAzhIx2x+
+            3u5BzyZXMaUtsuLw03twgQKBgH6/Q9nFiLSGawSZ9PrqJRe+iAtYtNVQb9PcA4Jq
+            hz/lhCInueFZ3hXcC5bK8bE0hNdF24m7emByn9IZrbau+Ld3jHx/tgQ/rOjgBquJ
+            4AwN+BddVYU62sOrBSubHeh0gsfKoc/xo2As0BEzhPrCSyI36XwtucBmDgn5OQZP
+            giFfAoGBAKOB8VZw5q+GayyKOXNKIpKcUfjK54gc24O9olmIj/FV1TsEjHYiVjht
+            R8BmWVcgB5f+wmoQkS5GqBoMA8zFMpyYHpZDwHkdoe9sj7lC+tGT16jenqurVGAK
+            GhyFiwByqGer1oLGRHbXpKOJmo7+4PXTYFUlxV/SUooMCRaSqfX5
+            -----END RSA PRIVATE KEY-----
+          strict-host-key-checking: true
